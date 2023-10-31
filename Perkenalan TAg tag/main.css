@@ -1,0 +1,164 @@
+.navigasi {
+	list-style-type: none;
+	font-size: 60px;
+	font-style: oblique;
+	text-align: center;
+	display:flex;
+	justify-content: center;
+
+}
+.navigasi li {
+	float: left;
+	padding: 10px;
+	background-color: white
+
+}	
+.navigasi li a{
+	text-decoration: none;
+
+}						
+.profil{
+	width: 300px;
+	margin-top: 200px 
+	justify-content: center
+	display:flex;
+	margin-left: 640px
+
+}
+.new{
+	width: 800px;
+	margin-top: 200px 
+	justify-content: center
+	display:flex;
+	margin-left: 650px
+}
+.new:hover {
+	padding:10px;
+	background:#ffff00;
+	border:1px solid #aaa; 
+}
+.haig{
+	width: 800px;
+	margin-bottom: 500px
+	justify-content: left
+	margin-left: 650px
+}
+.haig:hover {
+	padding:10px;
+	background:#ffff00;
+	border:1px solid #aaa; 
+}
+.baru{
+	width: 400px;
+	margin-bottom: 500px
+	justify-content: left
+	display:flex;
+	margin-left: 650px
+}
+.baru:hover {
+	padding:10px;
+	background:#ffff00;
+	border:1px solid #aaa; 
+}
+
+.new2{
+	width: 400px;
+	margin-bottom: 500px
+	justify-content: left
+	margin-left: 650px
+}
+.new2:hover {
+	padding:10px;
+	background:#ffff00;
+	border:1px solid #aaa; 
+}
+.new3{
+	width: 400px;
+	margin-bottom: 500px
+	justify-content: left
+	display:flex;
+	margin-left: 650px
+}
+.new3:hover {
+	padding:10px;
+	background:#ffff00;
+	border:1px solid #aaa; 
+}
+.TW{
+	width: 100px;
+
+}
+.in{
+	width: 100px;
+}
+.toy {
+	background-color: yellow
+}
+.new4{
+	width: 195px;
+	margin-bottom: 500px
+	justify-content: left
+	margin-left: 650px
+}
+.new4:hover{
+	padding:10px;
+	background:#ffff00;
+	border:1px solid #aaa;
+}
+.new5{
+	width: 120px;
+	margin-bottom: 500px
+	justify-content: left
+	margin-left: 650px
+}
+.new5:hover{
+	padding:10px;
+	background:#ffff00;
+	border:1px solid #aaa;
+}
+.new6{
+	width: 450px;
+	margin-bottom: 500px
+	justify-content: left
+	display:flex;
+	margin-left: 650px
+}
+.new6:hover{
+	padding:10px;
+	background:#ffff00;
+	border:1px solid #aaa;
+}
+.new7{
+	width: 400px;
+	margin-bottom: 500px
+	justify-content: left
+	margin-left: 650px
+}
+.new7:hover{
+	padding:10px;
+	background:#ffff00;
+	border:1px solid #aaa;
+}
+.new8{
+	width: 400px;
+	margin-bottom: 500px
+	justify-content: left
+	display:flex;
+	margin-left: 650px
+}
+.new8:hover{
+	padding:10px;
+	background:#ffff00;
+	border:1px solid #aaa;
+}
+.new9{
+	width: 450px;
+	margin-bottom: 500px
+	justify-content: left
+	margin-left: 650px
+}
+.new9:hover{
+	padding:10px;
+	background:#ffff00;
+	border:1px solid #aaa;
+}	

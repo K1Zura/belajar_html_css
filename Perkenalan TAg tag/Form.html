@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Login</title>
+</head>
+<body bgcolor="aqua">
+<font bgcolor="blue" face="cambria" size="5" color="white">
+    <div style="background-color: blue">
+        <marquee behavor="alternate" scrollamount="10">FORMULIR SEKOLAH</marquee>
+    </div>
+</font>
+    <form action="login.php" method="POST">
+        <fieldset>
+        <legend>Pendaftaran</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="Nama" placeholder="Nama Lengkap" />
+        </p>
+        <p>
+            <label>Tempat & Tgl. Lahir:</label>
+            <input type="text" name="Tempat" placeholder="Tempat Lahir" id="Tempat" size="20" />
+            /
+            <input type="text" name="Tgl" placeholder="Tgl" size="5">
+            -
+            <select name="Bulan" id="Bulan">
+                <option value="januaari" selected>Januari</option>
+                <option value="februari" selected>Februari</option>
+                <option value="maret" selected>Maret</option>
+                <option value="april" selected>April</option>
+                <option value="mei" selected>Mei</option>
+                <option value="juni" selected>Juni</option>
+                <option value="juli" selected>Juli</option>
+                <option value="agustus" selected>Agustus</option>
+                <option value="september" selected>September</option>
+                <option value="oktober" selected>Oktober</option>
+                <option value="november" selected>November</option>
+                <option value="desember" selected>Desember</option>
+            </select>
+            <select name="Tahun" id="Tahun">
+                <option value="2000" selected>2000</option>
+                <option value="2001" selected>2001</option>
+                <option value="2002" selected>2002</option>
+                <option value="2003" selected>2003</option>
+                <option value="2004" selected>2004</option>
+                <option value="2005" selected>2005</option>
+                <option value="2006" selected>2006</option>
+                <option value="2007" selected>2007</option>
+                <option value="2008" selected>2008</option>
+                <option value="2009" selected>2009</option>
+                <option value="2010" selected>2010</option>
+            </select>
+        </p>
+        <p>
+            <label>Asal Sekolah:</label>
+            <input type="text" name="Asal Sekolah" placeholder="Sekolah" />
+        </p>
+        <p>
+            <label>No. KK:</label>
+            <input type="text" name="No. KK" placeholder="Kartu Keluarga" />
+        </p>
+        <p>
+            <label>NIS:</label>
+            <input type="text" name="NIS" placeholder="Nomor Induk Sekolah" />
+        </p>
+        <p>
+            <label><input type="checkbox" name="Laki-Laki" value="Laki-Laki" /> Laki-Laki<input type="checkbox" name="Perempuan" value="Perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Kirim" />
+        </p>
+        </fieldset>
+    </form>
+    <a href="Perkenalan.HTML">Back</a>
+</body>
+</html>
